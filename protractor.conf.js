@@ -1,7 +1,7 @@
 exports.config = {
   capabilities: {
-    'browserName': 'chrome',
-    'chromeOptions': {
+    browserName: 'chrome',
+    chromeOptions: {
       'excludeSwitches': ['ignore-certificate-errors']
     }
   },

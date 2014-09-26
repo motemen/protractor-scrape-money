@@ -61,6 +61,7 @@ describe('mufg', function () {
       }).join('\n');
 
       fs.writeFileSync(outFilePath, content);
+      console.log('wrote: ' + outFilePath);
     });
   });
 });
