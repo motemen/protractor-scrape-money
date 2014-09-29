@@ -1,0 +1,15 @@
+= protractor-scrape-money
+
+Scrape your money information using protoractor. Ses also https://github.com/motemen/webdriverio-scrape-money[motemen/webdriverio-scrape-money].
+
+	npm install
+	npm run scrape-mufg
+
+== MUFG
+
+Scrapes http://direct.bk.mufg.jp/[三菱東京UFJ銀行] and prints current balance and stores last month's details to __YYYY__-__mm__.tsv.
+
+Required environment variables:
+
+* `MUFG_ID`
+* `MUFG_PASSWORD`
