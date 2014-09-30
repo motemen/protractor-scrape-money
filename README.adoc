@@ -1,5 +1,7 @@
 = protractor-scrape-money
 
+== DEPRECATED: See https://github.com/motemen/example-scrape-websites[motemen/example-scrape-websites]
+
 Scrape your money information using protoractor. Ses also https://github.com/motemen/webdriverio-scrape-money[motemen/webdriverio-scrape-money].
 
 	npm install
